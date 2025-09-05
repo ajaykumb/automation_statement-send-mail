@@ -3,11 +3,11 @@
 # Author: Ajay Kumar Behera
 
 DB_USER="bank_user"
-DB_PASS="bank_password"
+DB_PASS="akbehera"
 DB_NAME="bankdb"
 ACCOUNT_NO="1234567890"
 REPORT="/tmp/statement_${ACCOUNT_NO}_$(date +%F).csv"
-EMAIL="client@example.com"
+EMAIL="oracle.ajaykr@gmail.com"
 
 # Step 1: Generate CSV report from DB
 mysql -u$DB_USER -p$DB_PASS -D$DB_NAME -e "
